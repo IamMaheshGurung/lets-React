@@ -1,7 +1,7 @@
 import Header from './Header.jsx'
 import Students from './studentDetail.jsx'
 import UserGreeting from './Greeting.jsx'
-import secondApp from './secondApp.jsx'
+import Parents from './Parents.jsx'
 
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
       <Header/>
       <UserGreeting isLoggedIn={true} userName=" Mahesh Gurung,"/>
       <Students name="Mahesh Gurung" age={30} address="Harewa 06, Shantipur Gulmi" isStudent="yes"/>
-      <secondApp/>
+      <Parents name="Mahesh Gurung"/>
+      
     </>
   )
 }
