@@ -1,6 +1,6 @@
 import List from './List.jsx'
 
-function secondApp(){
+function Second(){
 
     const hobbies=[{id:1,name:"chess", interest :70},
                    {id:2,name:"danceing", interest: 80},
@@ -17,4 +17,4 @@ function secondApp(){
 
     return (<List items ={hobbies} category="hobbies"/>)
 }
-export default secondApp
+export default Second

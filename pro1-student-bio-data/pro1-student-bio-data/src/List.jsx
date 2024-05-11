@@ -4,7 +4,7 @@ function List(props){
     const itemsList=props.items
 
 
-    const hobbiesItem = itemsList.map(item=> <li key={hobby.id}>{hobby.name}:&nbsp;<b>{hobby.interest}</b></li>);
+    const hobbiesItem = itemsList.map(item=> <li key={item.id}>{item.name}:&nbsp;<b>{item.interest}</b></li>);
     
     
     return (
